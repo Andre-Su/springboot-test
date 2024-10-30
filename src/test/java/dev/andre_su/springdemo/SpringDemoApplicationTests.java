@@ -1,13 +1,13 @@
 package dev.andre_su.springdemo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.Test;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class SpringDemoApplicationTests {
+@SpringBootApplication
+public class SpringDemoApplicationTests {
 
 	@Test
-	void contextLoads() {
+    public void contextLoads() {
 	}
 
 }
